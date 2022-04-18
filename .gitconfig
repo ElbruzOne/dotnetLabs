@@ -1,0 +1,10 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = ElbruzOne
+	email = elbruzone@gmail.com
+[gui]
+	recentrepo = D:/Study/4.2/Робота з даними на платформі .NET
